@@ -1,0 +1,4 @@
+proto < ../proto/product.proto
+proto < ../proto/pagination.proto
+@host=localhost:50011
+GRPC /ProductService/GetProducts
